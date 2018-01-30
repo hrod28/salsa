@@ -7,7 +7,6 @@ module.exports = {
     connection: {
       database: 'hotsalsa'
     },
-  },
 },
 
   production: {
