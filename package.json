@@ -1,0 +1,34 @@
+{
+  "name": "salsa",
+  "version": "1.0.0",
+  "description": "backend for salsa ecommerce site",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "humps": "^2.0.1",
+    "knex": "^0.14.2",
+    "nodemon": "^1.14.11",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "knex migrate:latest && knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrod28/salsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrod28/salsa/issues"
+  },
+  "homepage": "https://github.com/hrod28/salsa#readme"
+}
